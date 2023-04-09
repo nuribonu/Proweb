@@ -1,0 +1,97 @@
+@media(max-width: 1200px){    
+}
+
+@media(max-width: 992px){ 
+      .aboutme-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 15px;
+      }
+
+      .work-items {
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+@media(max-width: 768px){
+    .nav-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .header-title {
+        font-size: 35px;
+    }
+
+}
+
+@media(max-width: 576px){
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+
+    }
+
+    .header-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-link {
+        padding: 8px 20px;
+        font-size: 30px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .aboutme-title  {
+        font-size: 30px;
+    }
+
+    .aboutme-content {
+        max-width: 450px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutme__img {
+        max-width: 450px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 400px){
+    .header-title {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .header-link {
+        padding: 6px 18px;
+        font-size: 25px;
+    }
+
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+}
